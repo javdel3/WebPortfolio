@@ -14,3 +14,10 @@ a {
 ul {
     list-style: none;
 }
+
+#slide-item {
+  text-align: center;
+  height: 300;
+  overflow: hidden;
+  margin:auto
+}
