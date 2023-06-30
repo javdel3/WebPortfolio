@@ -1,23 +1,8 @@
 /*index html */
-* {
-    background-color: rgb(10, 21, 134);
-    color:rgb(255,255,255);
-    box-sizing: border-box;
-    box-shadow: 1px rgba(0, 0, 0, 0.5);
-}
-
 a {
-    color: #0645ad;
     text-decoration: none;
 }
 
 ul {
     list-style: none;
-}
-
-#slide-item {
-  text-align: center;
-  height: 300;
-  overflow: hidden;
-  margin:auto
 }

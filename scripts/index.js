@@ -1,11 +1,9 @@
-const heroImage1;
-const heroImage2;
-const heroImage3;
+const heroImages = document.querySelector(".slide-item");
 
 // Image Slider for Hero Section
   // 10000 miliseconds = 10 seconds
 setInterval( () => {
-    heroImage1;
+    heroImages;
   },  
   10000
 );
