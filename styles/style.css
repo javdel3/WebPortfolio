@@ -3,19 +3,25 @@
 * {
   background-color: rgb(237, 235, 235);
   color:black;
+  z-index: 0;
+  position: relative;
 }
 
 h1 {
-  font-family: 'Audiowide';
+  font-family: 'Audiowide', 'arial';
+  font-size: 100px;
+  text-align: center;
 }
 
-body {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 25px;
+p, a, li {
+  font-family: 'Rubik','Impact', 'Arial Narrow Bold';
+  font-size: 30px;
+  text-decoration: none;
+  list-style: none;
 }
+
 
 button {
-  position: relative;
   margin-left: 300px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   cursor: pointer;
@@ -25,26 +31,37 @@ button {
 img {
   max-width: 80%;
   max-height: 250px;
+  border-radius: 5%;
+  background-color: transparent;
+}
+
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 50px;
 }
 
   /*All Classes*/
-.navbar li, .navbar a {
-  background-color: black;
-  padding: 20px;
-  color:rgb(131,173,234);
-  position: sticky;
-  text-decoration: none;
-  list-style: none;
+.navbar {
+  background-color: rgb(0,3,64);
+  padding: 30px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px auto;
 }
 
 .main-header {
-  font-family: 'Audiowide';
+  font-family: 'Audiowide', 'arial';
+  font-size: 100px;
   text-align: center;
   margin: 250px;
   padding: 20px 30px;
-  position: absolute;
-  background-color: transparent;
+  background-color: green;
 
+}
+
+.main-description {
+  top: 50px;
 }
 
 .flex-container {
@@ -54,7 +71,18 @@ img {
 }
 
 /*All IDs*/
-#return-top {
+#info-buttons > a {
+  color: aliceblue;
+  background-color: transparent;
   text-align: center;
   float: right;
+  margin-right: 35px;
+}
+
+#nav-item {
+  background-color: rgb(0,3,64);
+  color:rgb(131,173,234);
+  display: inline-block;
+  margin: 0px;
+  right: 0px;
 }

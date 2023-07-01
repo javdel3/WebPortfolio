@@ -15,35 +15,25 @@
     <!--Outside Links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Rubik&display=swap" rel="stylesheet">
   </head>    
 
   <body>
+    <div class="navbar" style = "z-index: 1000;">
+      <a id="nav-item" href="#header">Home</a>
+      <a id="nav-item" href="about/about.html">About</a>
+      <a id="nav-item" href="contact/contact.html">Contact</a>
+    </div>
     <header>
-    <!--Scripts-->
-    <script src="scripts/heroimg.js"></script>
-    <!--Navigation-->
-    <nav>
-      <ul class="navbar">
-        <li>
-          <a href="#header">Home</a>
-        </li>
-        <li>
-          <a href="about/about.html">About</a>
-        </li>
-        <li>
-          <a href="contact/contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <!--Header-->
-    <h1 class="main-header" >Javier Delgado</h1>
-    <p><em>Frontend website developer with a passion for web design and development.</em></p>
+      <!--Scripts-->
+      <script src="scripts/heroimg.js"></script>
+      <!--Navigation-->
+      
+      <!--Header-->
+      <h1 class="main-header">Javier Delgado</h1>
+      <p class="main-description"><em>Frontend website developer with a passion for web design and development.</em></p>
     </header>
     <!--Vertical Hero Slider-->
-    <div class="hero-image1">
-      
-    </div>
 
     <main>
       <div class="flexbox-container">
@@ -59,9 +49,15 @@
       </div>
       <button>Hire Me</button>
     </main>
-    <footer style = "background-color: rgb(0,3,64); color:aliceblue;">
+    <footer style = "background-color: black; color:aliceblue;">
       Copyright &copy; 2023. All Rights Reserved.
-      <a id="return-top" href="#top">Return to Top &uarr;</a>
+      <img src="assests/JD-logo.png" alt="Javier Delgado Web Developer Logo" height="50" width="50">
+      <div id="info-buttons">
+        <a href="#top">Return to Top &uarr;</a>
+        <a href="contact/contact.html">Contact Me</a>
+        <a href="about/about.html">About Me</a>
+      </div>
+      
     </footer>
   </body>
 </html>
