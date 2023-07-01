@@ -1,4 +1,9 @@
 /*index html */
+  /*All CSS Elements*/
+* {
+  background-color: rgb(237, 235, 235);
+  color:black;
+}
 
 h1 {
   font-family: 'Audiowide';
@@ -7,15 +12,6 @@ h1 {
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 25px;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-    display: grid;
 }
 
 button {
@@ -27,8 +23,18 @@ button {
 }
 
 img {
-  max-width: 100%;
-  max-height: auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+  /*All Classes*/
+.navbar li, .navbar a {
+  background-color: black;
+  padding: 20px;
+  color:rgb(131,173,234);
+  position: sticky;
+  text-decoration: none;
+  list-style: none;
 }
 
 .main-header {
@@ -37,7 +43,8 @@ img {
   margin: 250px;
   padding: 20px 30px;
   position: absolute;
-  opacity: .7;
+  background-color: transparent;
+
 }
 
 .flex-container {
@@ -46,6 +53,7 @@ img {
   background-color: white;
 }
 
+/*All IDs*/
 #return-top {
   text-align: center;
   float: right;
