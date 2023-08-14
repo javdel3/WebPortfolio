@@ -25,8 +25,10 @@ p {
 }
 
 button {
-  margin-left: 300px;
-  color: black;
+  background-color: rgb(0,3,64);
+  color: aliceblue;
+  padding: 25px;
+  border-radius: 20%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   cursor: pointer;
 }
@@ -71,4 +73,8 @@ footer {
 /*All IDs*/
 #nav-logo {
   float: left;
+}
+
+#description {
+  color: yellow;
 }
