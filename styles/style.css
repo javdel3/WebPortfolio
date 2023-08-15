@@ -8,8 +8,7 @@
   text-align: center;
   align-content: center;
   font-family: 'Rubik', sans-serif, Arial;
-  font-size: 30px;
-  
+  font-size: 30px; 
 }
 
 h1 {
@@ -60,11 +59,12 @@ footer {
   margin-left: -10px;
   width: 97vw;
   height: 80px;
-  align-items: top;
+
 }
 
 .navbar a {
   font-family: 'IBM Plex Sans', 'Trebuchet MS', Arial;
+  top: -1vh;
 }
 
 .main-header {
@@ -96,8 +96,6 @@ footer {
 
 .nav-links {
   float: right;
-  vertical-align: top;
-  border: solid 3px yellow;
 }
 
 /*All IDs*/
