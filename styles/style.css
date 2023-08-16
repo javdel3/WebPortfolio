@@ -72,6 +72,16 @@ footer {
   padding: 40px;
 }
 
+.alt-text {
+  color:blue;
+  font-size: 100px;
+  font-family: 'Audiowide', Impact, Arial;
+}
+
+.main-title {
+  color:white;
+}
+
 .main-description {
   top: -50px;
 }
@@ -103,7 +113,7 @@ footer {
 #logo-img-1 {
   float: left;
   height: 10vh;
-  width: 10vw;
+  width: 12vw;
   top: -3vh;
 }
 
@@ -122,4 +132,15 @@ a:hover {
 button:hover {
   background-color: aliceblue;
   color: black;
+}
+
+.alt-text::before {
+  content: "";
+  top: 50%;
+  right: -8px;
+  position: absolute;
+  height: 100px;
+  width: 2px;
+  background: red;
+  transform: translateY(-45%);
 }
