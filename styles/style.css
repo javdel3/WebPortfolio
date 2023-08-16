@@ -101,8 +101,9 @@ footer {
 /*All IDs*/
 #logo-img {
   float: left;
-  height: 5vh;
-  width: 5vw;
+  height: 10vh;
+  width: 10vw;
+  top: -3vh;
 }
 
 #nav-item {
