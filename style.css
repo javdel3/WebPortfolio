@@ -1,5 +1,5 @@
 /*index html */
-  /*All CSS Elements*/
+  /*CSS Elements*/
 * {
   background-color: rgb(237, 235, 235);
   color:aliceblue;
@@ -80,10 +80,6 @@ footer {
   color: rgb(224, 220, 120)
 }
 
-.example {
-  top: 150px;
-}
-
 .main-back {
   position: absolute;
   top: -10px;
@@ -92,6 +88,19 @@ footer {
   width: 110%;
   height: 80vh;
   border-radius: 0%;
+}
+
+.ex-flex {
+  display: flex;
+  top: 100px;
+  left: -1vw;
+}
+
+.ex-img {
+  border-radius: 0%;
+  height: 60vh;
+  width: 55vw;
+  margin: 0px;
 }
 
 .nav-links {
